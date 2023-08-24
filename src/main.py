@@ -1,5 +1,5 @@
 from flask import Flask ,jsonify ,request
-from db_connect import get_db_connection
+from src.db_connect import get_db_connection
 from flask_jwt_extended  import create_access_token ,get_jwt_identity,jwt_required, JWTManager
 import os
 import json
